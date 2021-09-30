@@ -14,7 +14,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 150%;
     margin-left: 15%;
-    margin-top: 10%;
+    margin-top: 0%;
     color: rgb(2, 2, 54);
     display: inline-block;
 }
@@ -22,8 +22,9 @@ body {
 ul {
     list-style-type: none;
     margin-left: 40%;
-    margin-top: 0%;
+    margin-top: 8%;
     line-height: 0%;
+    padding: 0%;
 }
 
 li {
@@ -80,21 +81,4 @@ button.learn {
     color: paleturquoise;
     margin-left: 15%;
     padding: 6px;
-}
-
-.div1::after {
-    content: none;
-    display: table;
-    clear: both;
-}
-
-.div2 {
-    float: left;
-    width: 2%;
-    padding: 5px;
-}
-
-.div1 {
-    margin-left: 15%;
-    margin-top: 1%;
 }
